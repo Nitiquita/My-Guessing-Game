@@ -1,0 +1,77 @@
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: inline;
+  width: 200px;
+  height: 100px;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+h1 {
+  font: 500px;
+  color: white;
+}
+
+body {
+  background-image: url("gridme.png");
+}
+
+
+
+.guess {
+  text-align: justify-all;
+  display: inline-flex;
+  border: 1px green;
+  padding: 50px;
+  margin: 5px;
+  border-radius: 20%;
+  font-size: 25px;
+  background-color: #585373;
+  font-weight: bold;
+  color: white;
+}
+
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
+}
+
+#submit {
+  border-radius: 50%;
+  width: 60px;
+  height:60px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+#player-input {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  font-size: 100px;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+
+

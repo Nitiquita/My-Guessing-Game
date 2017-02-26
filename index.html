@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel = "stylesheet" type="text/css" href = "main.css">
+    <link rel = "stylesheet" type="text/css" href = "bootstrap.css">
+
+  </head>
+  <body>
+
+      <div  id='app' class = "center container-fluid" >
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id="title">GUESS THE NUMBER</h1>
+          <h2 id="subtitle">Pick a number between 1 and 100!</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id="player-input" placeholder="?" maxlength = "3" autofocus="autofocus" ></input>
+            <button id='submit' class = "btn btn-success center">GO!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul  id='guess-list'>
+              <li class = 'guess'>---</li>
+              <li class = "guess">---</li>
+              <li class = "guess">---</li>
+              <li class = "guess">---</li>
+              <li class = "guess">---</li>
+            </ul>
+          </div>
+
+          <div id='menu-btns'>
+            <!-- reset and hint buttons -->
+            <button id="reset" class = "btn btn-primary center">RESET</button>
+            <button id="hint" class = "btn btn-info center">HINT</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class = "center">
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Nitika Nadgar</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="GHGuessingGame.js"></script>  
+  </body>
+</html>
